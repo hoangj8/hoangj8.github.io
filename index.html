@@ -9,12 +9,15 @@
 	html{
 		height: 97%;
 		width: : 99.5%;
+		background-image: url("images/escheresque.png");
 	}
 	main{
 		display:grid;
 		grid-template-rows: 100px 4fr 110px;
-		grid-template-columns: 1fr 4fr 1fr;
+		grid-template-columns: 1fr 4fr 2fr;
 		height:100%;
+		font-family: "Microsoft JhengHei UI";
+		color: rgb(76 76 76);
 	}
 
 	/******Nav Styles*****/
@@ -26,21 +29,10 @@
 		top:0;
 		width: 100%;
 		height:100px;
-		background-color: rgba(213,228,235,0.95);
+		background-color: rgba(213,228,235,0.60);
 		font-family: "Microsoft JhengHei UI";
 		color: rgb(76 76 76);
 	}
-
-	/*#four{
-		background-color: green;
-	}
-	#five{
-		background-color: blue;
-	}
-	#six{
-		background-color: purple;
-	}
-	*/
 	
 	#nav{
 		display:flex;
@@ -54,6 +46,7 @@
 		margin-top: 1.22em;
 		margin-left: 2em;
 		font-size: 2em;
+		letter-spacing: 2px;
 	}
 	
 	#nav h2{
@@ -63,6 +56,13 @@
 	#nav a{
 		text-decoration: none;
 	}
+	#nav a:visited{
+		color: rgb(76 76 76);
+	}
+	#nav a:hover{
+		color:white;
+	}
+	
 /*	#nav_about{
 		position:fixed;
 		right: 30%;
@@ -84,7 +84,7 @@
 
 	#socials{
 
-		background-color: rgba(213,228,235,0.95);
+		background-color: rgba(213,228,235,0.60);
 		padding: 5px 50px 10px 50px;
 		border-radius: 4em 4em 0 0;
 		position:fixed;
@@ -125,98 +125,25 @@
 	<div id="one"></div>
 	<div id="two"></div>
 	<div id="three"></div>
-	<div id="four">Four</div>
-	<div id="five"><pre>
-the beginning
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-the middle
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-the end
-	</pre></div>
-	<div id="six">Six</div>
-	<div id="seven">Seven</div>
+	<div id="four"></div>
+	<div id="main">
+		<section id="about">
+			<h1>About</h1>
+			<p>Jacky Hoang is a Computer Science graduate with almost 3 years of experience working in hardware and application support. Over the years, he has worked for York University and the Ontario Energy Board and has developed a proven track record of resolving issues quickly and effectively. 
+			<br>
+			<br>As a self-proclaimed 'geek' and technophile, Jacky enjoys coding and has experience with Python and Java. He is currently working on developing his skills as a full-stack web developer and from the look of this website, has managed to grasp the basics of HTML, CSS and Javascript.
+			<br>
+			<br>When he isn't coding or helping people tackle their computer issues, Jacky likes to binge-watch his favourite show on Netflix (currently: The Umbrella Academy) or play video games.
+			<br><br>
+			Jacky is currently seeking for new opportunities in both tech support and web development. If you are interested in hiring him, feel free to contact him by clicking the link above.
+			</p>
+		</section>
+		<section id="projects">
+			<h1> Projects </h1>
+		</section>
+	</div>
+	<div id="six"></div>
+	<div id="seven"></div>
 
 	<div id="socials">
 		<ul id="socials_iconList">
