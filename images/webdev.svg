@@ -1,0 +1,13 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon id="svg_3" points="195.568,185.811 142.681,250.173 195.568,314.534 208.077,293.962 172.44,250.173      208.077,206.384    " fill="#4c4c4c"/>
+  <polygon id="svg_4" points="228.707,313 251.922,313 288.816,187 265.6,187    " fill="#4c4c4c"/>
+  <polygon id="svg_5" points="303.876,185.81 291.37,206.384 327.005,250.173 291.37,293.961 303.876,314.535 356.765,250.173         " fill="#4c4c4c"/>
+ </g>
+</svg>
